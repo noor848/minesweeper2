@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+}
+.sweeper {
+  width: 400px;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+}
+.sweeper input {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(59, 68, 131);
+  color: transparent;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.sweeper input:hover {
+  opacity: 0.8;
+  background-color: yellow;
+}
+#over {
+  margin-left: 450px;
+  margin-top: 40px;
+
+  width: 300px;
+  border: solid black 1px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+#board {
+  background-color: midnightblue;
+  height: 500px;
+  margin-left: 300px;
+  margin-right: 450px;
+}
+
+.imageb{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+ margin-top: 10px;
+ display: inline-block;
+
+}
+.aa{
+  width: 150px;
+    margin-left: 100px;
+   background-color: grey;
+}
+/*{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+*/
+button{
+     font-size: 30px;
+  font-weight: bold; 
+   text-align: center;
+  color: red;
+  margin-left: 1px;
+  width: 300px;
+  border: solid black 1px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+#k{
+
+font-size: 30px;
+margin-top: 30px;
+color: white;
+margin-left: 100px;
+}
+#g{
+    font-size: 30px;
+margin-top: 30px;
+color: white;
+}
+
+#gameover{
+
+    font-size: 80px;
+    color: red;
+font-weight: bold;
+    position: relative;
+    width: 300px;
+    bottom: 340px;
+    left: 430px;
+
+}
+#timer{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left:150px ;
+    color: white;
+}
